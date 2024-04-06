@@ -1,0 +1,108 @@
+:root{
+    --rosa-fiap: #ed145b;
+    --branco-fonte: #fff
+}
+
+html body{
+    margin: 0;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h2{
+    margin-left: 2%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 1% 2%;
+    font-size: large;
+}
+
+.header a{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.banner-img{
+    background: linear-gradient(#0000007e , #0000004d), url("./images/pexels-felix-mittermeier-957002.jpg") ;
+    height: 60vh;
+    background-size: cover;
+    color: azure;
+    
+}
+
+
+.banner-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.banner-cont h1{
+    font-size: 350%;
+    margin-bottom: 1%;
+}
+
+.banner-cont h2{
+    font-size: 200%;
+}
+
+
+.banner-cont button{
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    background: #c91c42;
+    color: azure;
+    border: none;
+    font-weight: bold;
+}
+
+/* Conteudo Main */
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coluna h2{
+    margin: 7% 0;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 60%;
+}
+
+.card p{
+    margin: 0 20%;
+}
+
+.card button{
+    margin: 4% 0;
+}
