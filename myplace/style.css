@@ -1,10 +1,13 @@
 :root{
     --rosa-fiap: #ed145b;
-    --branco-fonte: #fff
+    --branco-fonte: #fff;
+    --var-fonte: "Poppins",sans-serif
 }
 
-html body{
+*{
     margin: 0;
+    box-sizing: border-box;
+    font-family: var(--var-fonte);
 }
 
 header{
@@ -56,17 +59,22 @@ header h2{
 
 .banner-cont h2{
     font-size: 200%;
+    padding: 2% 0;
 }
 
 
 .banner-cont button{
-    width: 20%;
     height: 50px;
     border-radius: 30px;
     background: #c91c42;
     color: azure;
     border: none;
     font-weight: bold;
+    transition: .5s;
+}
+
+button:hover{
+    color: #ed145b;
 }
 
 /* Conteudo Main */
@@ -80,6 +88,7 @@ header h2{
 .coluna h2{
     margin: 7% 0;
 }
+
 .linha{
     display: flex;
     flex-direction: row;
@@ -87,12 +96,12 @@ header h2{
     justify-content: center;
 }
 
-
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .card img{
@@ -101,6 +110,10 @@ header h2{
 
 .card p{
     margin: 0 20%;
+}
+
+.card-text p{
+    text-align: left;
 }
 
 .card button{
